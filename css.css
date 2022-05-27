@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.block{
+	width: 100%;
+	height: 2000px;
+	background-image: url(all.jpg);
+	 background-size: cover;
+	 background-size: 100%;
+	 background-repeat: no-repeat;
+}
