@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css.css">
+	<script src="js.js"></script>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+	<div class="swiper">
+  <!-- Additional required wrapper -->
+  		<div class="swiper-wrapper">
+    <!-- Slides -->
+    			<div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+    			<div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+    			<div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+    ...
+  		</div>
+  		<div class="swiper-pagination"></div>
+  		<div class="swiper-button-prev"></div>
+  		<div class="swiper-button-next"></div>
+
+	</div>
+
+
+<script type="module">
+  import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+
+const swiper = new Swiper('.swiper', {
+  // Default parameters
+  slidesPerView: 1,
+  spaceBetween: 1000,
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 200
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 40
+    }
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+})
+</script>
+</body>
+</html>
