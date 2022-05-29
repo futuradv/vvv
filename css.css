@@ -9,6 +9,7 @@
 }
 body{
 	background-image: url(img/BG.jpg);
+	background-size: 100%;
 }
 .block{
 	background: black;
