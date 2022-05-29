@@ -28,20 +28,20 @@
 	text-align: center;
 
 }
+img{
+	width: 100px;
+}
 @media screen and (max-width: 1200px) {
     img{
 	width: 100px;
-}
-}
+}}
 
 @media screen and (max-width: 600px) {
 img{
 	width: 160px;
-}
-}        
+}}        
 
 @media screen and (max-width: 320px) {
 img{
 	width: 160px;
-	}           
-}
+}}
