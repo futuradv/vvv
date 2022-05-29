@@ -62,6 +62,17 @@ body{
   animation: grad 2s ease infinite;
 
 }
+.soc_seti img{
+	width: 150px;
+	height: 150px;
+}
+.soc_seti{
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
 @keyframes grad{
 	0%{
 		background-position: 0 50%;
